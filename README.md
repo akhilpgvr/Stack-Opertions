@@ -1,30 +1,41 @@
-These are the major programming Methodologies
-
-1. Agile Software Development
-
-In 2001, seventeen software developers made history by signing the Agile Manifesto. Since then, agile software development has taken off; in fact, in a 201
+Stack 
 
 
-3. Lean Software Development
 
-Although lean development is commonly associated with agile, the principles of lean actually arose from Toyota's lean manufacturing processes. This development methodology relies on seven key principles: eliminate waste, increase feedback, delay commitment, deliver fast, build integrity in, empower the team and see the whole. Lean first came to the attention of the software development community in 2003 with the publication of Mary and Tom Poppendieck's book "Lean Software Development: An Agile Toolkit."
+Stack is a linear data structure which follows a particular order in which the operations are performed. The aorder may be LIFO(Last In First Out) or FILO(First In Last Out).
 
+Mainly the following three basic operations are performed in the stack:
 
-4. Kanban
+    • Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition. 
+    
+    • Pop: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition. 
+    
+    • Peek or Top: Returns top element of stack. 
+    
+    • isEmpty: Returns true if stack is empty, else false. 
+    
 
-Another variation of agile software development that was inspired by Toyota, Kanban gives developers a visual way to see what work needs to be done and allows them to "pull" in work as they have capacity rather than "pushing" them to complete certain tasks. It relies on three core principles: visualize what you do today, limit the amount of work in progress and enhance flow.5 Forrester report, 54 percent of enterprises surveyed said that more than half the development teams at their organizations were using agile methodologies. The Agile philosophy is based on twelve core principles that emphasize short iterations, continuous delivery, simplicity, retrospection and collaboration between end users and developers.
+Applications of stack:
 
+    • Balancing of symbols
+    
+    • Infix to Postfix /Prefix conversion 
+    
+    • Redo-undo features at many places like editors, photoshop. 
+    
+    • Forward and backward feature in web browsers 
+    
+    • Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem. 
+    
+    • Other applications can be Backtracking, Knight tour problem, rat in a maze, N queen problem and sudoku solver 
+    
+    • In Graph Algorithms like Topological Sorting and Strongly Connected Components 
+    
+Implementation:
 
-2. Scrum
+There are two ways to implement a stack:
 
-Agile software development comes in many flavors, and Scrum is one of the most popular with 70 percent of respondents to the 2015 State of Agile report saying that they practice Scrum or a Scrum hybrid. It's a framework for collaboration that was first invented by Jeff Sutherland in 1993. It divides complex projects into short two- to four-week sprints, and it emphasizes the values of courage, focus, commitment, respect and openness.
-
-
-3. Lean Software Development
-
-Although lean development is commonly associated with agile, the principles of lean actually arose from Toyota's lean manufacturing processes. This development methodology relies on seven key principles: eliminate waste, increase feedback, delay commitment, deliver fast, build integrity in, empower the team and see the whole. Lean first came to the attention of the software development community in 2003 with the publication of Mary and Tom Poppendieck's book "Lean Software Development: An Agile Toolkit."
-
-
-4. Kanban
-
-Another variation of agile software development that was inspired by Toyota, Kanban gives developers a visual way to see what work needs to be done and allows them to "pull" in work as they have capacity rather than "pushing" them to complete certain tasks. It relies on three core principles: visualize what you do today, limit the amount of work in progress and enhance flow.
+    • Using array 
+    
+    • Using linked list 
+    
