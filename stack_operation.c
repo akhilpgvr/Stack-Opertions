@@ -1,5 +1,7 @@
 
-#This is the code for performing entering and deleting element from stacT
+//This is the code for performing entering and deleting element from stack
+
+
 #include<stdio.h>
 int main()
 {
@@ -8,11 +10,11 @@ int main()
  scanf("%d",&num);
  while(choice!=0)
  {
-printf("enter 1 for entering an element and 2 for deleting an element\t");      #inputing the chioce wheather it is input or deletion
+printf("enter 1 for entering an element and 2 for deleting an element\t");      //inputing the chioce wheather it is input or deletion
  scanf("%d",&op);
   switch(op)
   {
-   case 1 :if(top>=num-1)       #cheching is stak full
+   case 1 :if(top>=num-1)       //checking is stak full
            {
             printf("stack overflow\n");
            }
@@ -20,7 +22,7 @@ printf("enter 1 for entering an element and 2 for deleting an element\t");      
            {
            printf("enter the element for adding\t");
            scanf("%d",&element);
-           top+=1;            #incrementing the value of tap by 1
+           top+=1;            //incrementing the value of tap by 1
            a[top] = element;
            }
            printf("elements in stack are\t");
@@ -30,14 +32,14 @@ printf("enter 1 for entering an element and 2 for deleting an element\t");      
 	   }
            printf("\n");
            break;
-   case 2 :if(top<0)        #checing is the stack empty
+   case 2 :if(top<0)        //checing is the stack empty
            {
             printf("stack underflow\n");
            }
            else
            {
             top = top -1;
-            printf("Element is deleted\tvalue of top = %d\n",top);        #displaying the value of top after deleting the stack element
+            printf("Element is deleted\tvalue of top = %d\n",top);        //displaying the value of top after deleting the stack element
            }
  }
   printf("enter 1 to continue and 0 for exit\t");
